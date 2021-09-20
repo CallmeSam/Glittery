@@ -1,2 +1,4 @@
-﻿  PolygonNode.cpp
+﻿  Texture2D.cpp
+d:\glittery\classes\texture2d.cpp(56): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+d:\glittery\classes\texture2d.cpp(57): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
   Glittery.vcxproj -> D:\Glittery\Debug\Glittery.exe

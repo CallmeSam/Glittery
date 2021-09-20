@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\math">
+      <UniqueIdentifier>{8b29c77c-8ecc-424d-9fdd-46e3197e3614}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Classes\GLView.h">
@@ -25,6 +28,21 @@
       <Filter>源文件</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\Shader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VerticeData.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Sprite2D.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Texture2D.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\math\Vec2.h">
+      <Filter>源文件\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Camera.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -42,6 +60,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Sprite2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Texture2D.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\math\Vec2.cpp">
+      <Filter>源文件\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Camera.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

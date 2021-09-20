@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\OpenGL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\OpenGL\include;D:\Glittery\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,17 +126,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Classes\Camera.h" />
     <ClInclude Include="..\Classes\GLView.h" />
     <ClInclude Include="..\Classes\Macros.h" />
+    <ClInclude Include="..\Classes\math\Vec2.h" />
     <ClInclude Include="..\Classes\PolygonNode.h" />
     <ClInclude Include="..\Classes\Shader.h" />
+    <ClInclude Include="..\Classes\Sprite2D.h" />
+    <ClInclude Include="..\Classes\Texture2D.h" />
+    <ClInclude Include="..\Classes\VerticeData.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Classes\Camera.cpp" />
     <ClCompile Include="..\Classes\glad.c" />
     <ClCompile Include="..\Classes\GLView.cpp" />
     <ClCompile Include="..\Classes\main.cpp" />
+    <ClCompile Include="..\Classes\math\Vec2.cpp" />
     <ClCompile Include="..\Classes\PolygonNode.cpp" />
     <ClCompile Include="..\Classes\Shader.cpp" />
+    <ClCompile Include="..\Classes\Sprite2D.cpp" />
+    <ClCompile Include="..\Classes\Texture2D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

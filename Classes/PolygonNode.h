@@ -3,29 +3,26 @@
 
 #include "Macros.h"
 #include "glad/glad.h"
+#include "VerticeData.h"
 
 NS_GTY_BEGIN
 
 class Shader;
 
-struct V2F_C3F {
-	float point[2];
-	float color[3];
-};
-
 class PolygonNode
 {
 public:
-	static PolygonNode* create(V2F_C3F* vertice, int num);
+	static PolygonNode* create(V2F_C3F* vertice, int num, unsigned int* indicesData = nullptr, int indicesNum = 0);
 	PolygonNode();
 	void draw();
 
 private:
-	bool init(V2F_C3F* vertice, int num);
+	bool init(V2F_C3F* vertice, int num, unsigned int* indicesData, int indicesNum);
 
 	Shader* _shader;
 	GLuint _vao;
 	int _num;
+	int _indicesNum;
 };
 
 
